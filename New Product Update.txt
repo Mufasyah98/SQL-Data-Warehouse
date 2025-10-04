@@ -1,0 +1,5 @@
+Product ID	Product Name	Price Per Unit	Cost Per Unit	Category ID	Brand	Supplier Name
+P0197	Deluxe T-Shirt	444.04	240.01	CAT06	SportMax	GreenEarth Supply
+P0198	Max Chair	352.91	119.88	CAT03	PureLiving	GreenEarth Supply
+P0199	Max Laptop	466.96	121.92	CAT05	FreshBrew	GreenEarth Supply
+P0200	Lite Blender	453.46	157.44	CAT05	ElectroWave	MasterTrade Asia

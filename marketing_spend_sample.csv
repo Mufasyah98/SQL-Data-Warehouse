@@ -1,0 +1,101 @@
+Marketing Transaction ID,Date,Channel,Campaign Name,Store ID,Spend Amount (RM),Target Audience,Revenue Generated (RM)
+MKT00001,13/09/2022,Influencer,Influencer Campaign 18,S047,9385.01,National,15142.16
+MKT00002,15/10/2024,Radio,Radio Campaign 13,S003,43233.91,Online,90083.62
+MKT00003,20/02/2022,Influencer,Influencer Campaign 12,S005,27620.18,Online,99938.8
+MKT00004,16/01/2024,Radio,Radio Campaign 32,S041,7289.42,Local,14025.65
+MKT00005,11/11/2023,Google Ads,Google Ads Campaign 19,S023,3961.98,Local,11322.18
+MKT00006,13/01/2024,Billboard,Billboard Campaign 38,S022,5542.08,Local,11837.7
+MKT00007,05/05/2022,Google Ads,Google Ads Campaign 15,S028,30431.97,Regional,43994.1
+MKT00008,23/12/2022,Radio,Radio Campaign 7,S046,38835.36,Online,53667.02
+MKT00009,13/01/2023,Google Ads,Google Ads Campaign 50,S033,19154.7,Local,44399.15
+MKT00010,22/01/2024,Billboard,Billboard Campaign 43,S003,25949.33,National,29238.05
+MKT00011,19/08/2024,Influencer,Influencer Campaign 40,S032,22206.78,Regional,29444.26
+MKT00012,19/06/2024,Google Ads,Google Ads Campaign 25,S015,44442.13,Online,54319
+MKT00013,21/08/2023,Radio,Radio Campaign 32,S028,17817.27,Regional,46605.04
+MKT00014,12/02/2023,Social Media,Social Media Campaign 18,S027,17822.69,Online,30075.29
+MKT00015,15/11/2022,Radio,Radio Campaign 11,S002,43813.17,Online,75167.86
+MKT00016,21/12/2023,Email Marketing,Email Marketing Campaign 19,S048,28953.64,Online,78106.82
+MKT00017,01/09/2022,TV,TV Campaign 13,S026,2096.03,National,4218.25
+MKT00018,02/09/2024,Google Ads,Google Ads Campaign 10,S028,20580.61,National,65058.92
+MKT00019,19/06/2022,Event Sponsorship,Event Sponsorship Campaign 40,S002,43960.81,Online,100725.67
+MKT00020,27/09/2024,Influencer,Influencer Campaign 34,S017,22627.29,Local,56656.08
+MKT00021,16/04/2022,Billboard,Billboard Campaign 24,S023,34145.55,Regional,74013.49
+MKT00022,11/05/2022,Radio,Radio Campaign 45,S004,40814.7,Regional,78611.45
+MKT00023,26/07/2022,Event Sponsorship,Event Sponsorship Campaign 26,S035,33656.56,Online,51167.83
+MKT00024,10/10/2022,Radio,Radio Campaign 40,S010,20550.34,Regional,40299.44
+MKT00025,16/09/2022,Influencer,Influencer Campaign 14,S030,26828.28,Local,51681.33
+MKT00026,11/06/2023,Influencer,Influencer Campaign 38,S007,16805,Regional,46410.04
+MKT00027,23/09/2023,Radio,Radio Campaign 6,S035,37197.76,National,78153.28
+MKT00028,08/07/2023,Email Marketing,Email Marketing Campaign 6,S031,43353.03,Online,74729.97
+MKT00029,23/01/2022,Radio,Radio Campaign 22,S041,1506.12,Online,4319.7
+MKT00030,19/12/2023,Email Marketing,Email Marketing Campaign 19,S043,9924.08,Local,11913.77
+MKT00031,04/09/2022,Radio,Radio Campaign 46,S034,9415.31,Regional,17673.56
+MKT00032,18/11/2023,Social Media,Social Media Campaign 13,S026,49480.11,Regional,144603.96
+MKT00033,05/01/2024,Email Marketing,Email Marketing Campaign 50,S041,5908.03,Regional,9874.24
+MKT00034,26/02/2024,Social Media,Social Media Campaign 17,S011,22582.97,Local,49059.09
+MKT00035,16/11/2023,Influencer,Influencer Campaign 5,S045,34089.67,Local,38276.22
+MKT00036,09/03/2022,Radio,Radio Campaign 10,S016,27978.51,Regional,33413.9
+MKT00037,13/02/2023,Billboard,Billboard Campaign 10,S021,19748.99,Local,53027.18
+MKT00038,02/02/2023,Email Marketing,Email Marketing Campaign 20,S039,18006.46,Regional,41545.04
+MKT00039,30/12/2024,Social Media,Social Media Campaign 35,S007,4452.02,National,7096.16
+MKT00040,08/09/2024,Billboard,Billboard Campaign 33,S005,17590.74,Local,43266.04
+MKT00041,01/05/2023,TV,TV Campaign 32,S022,11709.96,Online,21873.23
+MKT00042,13/03/2024,Google Ads,Google Ads Campaign 27,S016,2400.8,Online,4222.67
+MKT00043,24/06/2024,Social Media,Social Media Campaign 43,S010,39162.08,Online,63814.87
+MKT00044,23/06/2023,Billboard,Billboard Campaign 43,S020,29637.96,Local,94434.37
+MKT00045,17/02/2022,TV,TV Campaign 34,S033,42087.84,Local,68316.59
+MKT00046,13/09/2022,TV,TV Campaign 9,S015,22007.71,National,32493.02
+MKT00047,10/08/2023,TV,TV Campaign 17,S043,41028.79,Online,129499.19
+MKT00048,17/03/2023,Social Media,Social Media Campaign 10,S003,21969.76,Online,59556.05
+MKT00049,07/04/2023,Event Sponsorship,Event Sponsorship Campaign 5,S041,21730.32,National,70904.11
+MKT00050,13/04/2024,Radio,Radio Campaign 32,S020,19141.5,National,47162.6
+MKT00051,26/03/2023,Google Ads,Google Ads Campaign 26,S017,17927.15,Online,36916.7
+MKT00052,25/06/2023,Event Sponsorship,Event Sponsorship Campaign 6,S015,30173.55,Local,61495.73
+MKT00053,30/07/2022,Radio,Radio Campaign 7,S044,21581.02,Local,22739.42
+MKT00054,08/09/2022,Influencer,Influencer Campaign 14,S045,21311.42,Online,26190.27
+MKT00055,01/02/2023,Billboard,Billboard Campaign 8,S012,27555.97,Regional,47121.16
+MKT00056,21/12/2023,Social Media,Social Media Campaign 21,S017,34157.17,Local,83921.21
+MKT00057,23/07/2022,Billboard,Billboard Campaign 7,S017,1209.9,Regional,2017.52
+MKT00058,29/11/2023,TV,TV Campaign 30,S001,13924.33,Online,17530.2
+MKT00059,29/03/2023,Event Sponsorship,Event Sponsorship Campaign 5,S008,8119.18,National,26210.8
+MKT00060,19/09/2022,Radio,Radio Campaign 17,S020,40062.85,National,77941.22
+MKT00061,20/09/2023,Social Media,Social Media Campaign 40,S029,45038.13,National,68276.29
+MKT00062,05/03/2022,TV,TV Campaign 29,S025,19141.3,National,52247.1
+MKT00063,12/09/2022,Social Media,Social Media Campaign 3,S013,19866.53,Regional,36013.82
+MKT00064,08/05/2022,Social Media,Social Media Campaign 2,S037,25792.81,National,31769.89
+MKT00065,03/11/2023,Social Media,Social Media Campaign 40,S046,30338.19,Local,47865.08
+MKT00066,11/01/2023,Influencer,Influencer Campaign 47,S012,17280.46,National,25365.47
+MKT00067,28/08/2022,Event Sponsorship,Event Sponsorship Campaign 14,S003,5722.6,Regional,6944.1
+MKT00068,19/01/2024,Google Ads,Google Ads Campaign 23,S025,21202.79,Regional,23251.63
+MKT00069,04/11/2022,TV,TV Campaign 14,S020,45486.72,National,61232.2
+MKT00070,31/08/2022,Billboard,Billboard Campaign 32,S020,6595.87,Online,9896.03
+MKT00071,30/03/2024,Social Media,Social Media Campaign 36,S044,24440.8,Local,28928.76
+MKT00072,12/01/2023,Influencer,Influencer Campaign 29,S045,11611.08,National,15482.08
+MKT00073,15/06/2023,Radio,Radio Campaign 39,S026,10327.39,Online,15922.39
+MKT00074,23/08/2023,Influencer,Influencer Campaign 10,S043,34095.23,Online,104512.18
+MKT00075,11/09/2022,Influencer,Influencer Campaign 12,S048,14419.81,Online,38993.43
+MKT00076,25/11/2024,Billboard,Billboard Campaign 11,S047,18731.69,Online,45352.49
+MKT00077,11/09/2024,Radio,Radio Campaign 34,S025,14274.76,Local,48330.16
+MKT00078,02/05/2024,Event Sponsorship,Event Sponsorship Campaign 25,S040,30694.82,Online,49339.34
+MKT00079,07/08/2024,TV,TV Campaign 7,S023,26773.73,Local,35941.95
+MKT00080,24/09/2022,Email Marketing,Email Marketing Campaign 27,S033,13384.32,Online,42413.5
+MKT00081,26/07/2024,TV,TV Campaign 31,S031,14161.49,Local,22110.76
+MKT00082,14/10/2022,TV,TV Campaign 31,S021,27694.78,National,65036.95
+MKT00083,27/01/2022,Influencer,Influencer Campaign 42,S019,4600,Regional,5064.86
+MKT00084,04/01/2022,TV,TV Campaign 29,S015,27344.97,Regional,64155.92
+MKT00085,13/04/2022,Billboard,Billboard Campaign 46,S013,16644.86,Regional,62927.32
+MKT00086,16/05/2023,Email Marketing,Email Marketing Campaign 40,S022,38684.77,Local,67160.41
+MKT00087,28/03/2022,Email Marketing,Email Marketing Campaign 4,S023,44785.85,Local,87900.22
+MKT00088,22/04/2024,TV,TV Campaign 47,S028,4378.64,Regional,5310.48
+MKT00089,06/03/2022,Radio,Radio Campaign 50,S041,31542.48,Regional,82063.07
+MKT00090,15/12/2023,Email Marketing,Email Marketing Campaign 21,S047,12412.2,National,28048.23
+MKT00091,17/11/2024,Google Ads,Google Ads Campaign 18,S005,3918.78,Online,6791.47
+MKT00092,26/06/2023,Radio,Radio Campaign 35,S037,31932.03,Regional,52780.6
+MKT00093,12/10/2023,Email Marketing,Email Marketing Campaign 1,S025,9806.27,Regional,13276.53
+MKT00094,08/04/2023,Social Media,Social Media Campaign 16,S047,48780.81,National,100603.63
+MKT00095,23/10/2022,Radio,Radio Campaign 50,S027,40839.07,Local,85893.12
+MKT00096,15/01/2023,Social Media,Social Media Campaign 29,S005,33888.75,National,70520.19
+MKT00097,13/04/2022,Billboard,Billboard Campaign 45,S017,7157.82,Local,10432.56
+MKT00098,06/06/2023,TV,TV Campaign 1,S006,41916.94,Local,54248.42
+MKT00099,16/09/2023,TV,TV Campaign 1,S024,47109.7,Local,85417.25
+MKT00100,21/08/2022,Billboard,Billboard Campaign 32,S006,14508.97,Regional,29573.87
