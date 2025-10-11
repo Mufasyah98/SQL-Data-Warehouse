@@ -1,0 +1,67 @@
+Next Steps After Saving All Stored Procedures (Data Warehouse Project)
+
+1. Set Up Order & Orchestration of the Pipeline
+-- This procedure defines the full ETL pipeline sequence from Bronze to Gold layers.
+CREATE OR ALTER PROCEDURE dbo.usp_Run_Pipeline
+AS
+BEGIN
+  BEGIN TRY
+    EXEC dbo.usp_Bronze_Load;      -- Load raw data (Bronze Layer)
+    EXEC dbo.usp_Silver_Clean;     -- Clean and standardize (Silver Layer)
+    EXEC dbo.usp_Gold_Aggregate;   -- Aggregate and model for analytics (Gold Layer)
+  END TRY
+  BEGIN CATCH
+    EXEC dbo.usp_Log_Error @Step = 'Pipeline', @ErrMsg = ERROR_MESSAGE();
+    THROW; -- Stop process if an error occurs
+  END CATCH
+END
+
+2. Schedule the ETL Process
+-- Automate the process using SQL Agent (for Developer/Standard) or Task Scheduler (for Express).
+sqlcmd -S .\SQLEXPRESS -d DW_Prod -E -Q "EXEC dbo.usp_Run_Pipeline;"
+
+3. Design Audit & Logging
+-- Track each ETL batch: start time, end time, status, rows affected, and source file.
+CREATE TABLE dbo.ETL_Batch_Audit(...);
+EXEC dbo.usp_Log_Success @StepName='Silver_Clean', @Rows=@@ROWCOUNT;
+
+4. Support Incremental Load (Watermark)
+-- Store LastLoadedAt to only load new or updated records since last run.
+
+5. Manage Dimensions (SCD) & Surrogate Key
+-- Implement Slowly Changing Dimensions (Type 2) using MERGE.
+-- Use IDENTITY column for surrogate keys in dimension tables.
+
+6. Validate & Ensure Data Quality
+-- Check for completeness, uniqueness, and referential integrity after data cleaning.
+
+7. Ensure Idempotency (Re-run Safe)
+-- Use MERGE statements for Fact tables to prevent duplicate data.
+
+8. Partitioning & Performance Indexing
+-- Create indexes on key columns (e.g., DateSK, ProductSK) for performance optimization.
+
+9. Build Gold Layer & Semantic Models
+-- Create Power BI-ready views for analysis.
+CREATE OR ALTER VIEW gold.v_Sales_By_Date_Product AS
+SELECT d.CalDate, p.ProductName, f.Quantity, f.Sales, f.Profit
+FROM dbo.Fact_Sales f
+JOIN dbo.Dim_Date d ON f.DateSK=d.DateSK
+JOIN dbo.Dim_Product p ON f.ProductSK=p.ProductSK;
+
+10. Security & Governance
+-- Apply role-based access, column-level masking, and maintain a data dictionary.
+
+11. CI/CD & Version Control
+-- Store all scripts in Git repository using CREATE OR ALTER for consistency.
+
+12. Automated Testing (Smoke & Reconciliation)
+-- Create test procedures to ensure no missing or negative values after each ETL run.
+
+13. Recovery & Archival
+-- Keep Bronze layer immutable and maintain backups for rollback.
+
+14. Monitoring & Reporting
+-- Use Power BI dashboards to monitor ETL success rates, audit logs, and data quality.
+
+
